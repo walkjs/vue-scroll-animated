@@ -7,12 +7,14 @@
 
 ```
 //main.js
+
 import animated from 'animated'
 
 Vue.use(animated);
 
 
 //index.vue
+
 <div v-animated="'animated bounceIn'"></div>
 ```
 
