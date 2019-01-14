@@ -16,6 +16,14 @@ Vue.use(animated);
 //index.vue
 
 <div v-animated="'animated bounceIn'"></div>
+
+
+//app.vue
+<style>
+ @import animate.css;
+</style>
+
+
 ```
 
 
