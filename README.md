@@ -20,7 +20,9 @@ Vue.use(animated);
 
 //app.vue
 <style>
+
  @import animate.css;
+ 
 </style>
 
 
