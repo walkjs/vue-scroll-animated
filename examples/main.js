@@ -5,6 +5,7 @@ import animated from '../src/directives/animated'
 
 Vue.config.productionTip = false
 Vue.use(animated);
+
 new Vue({
   router,
   render: h => h(App)
