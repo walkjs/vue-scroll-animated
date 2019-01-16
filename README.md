@@ -1,7 +1,10 @@
-﻿#### 使用方式
-通过v-animated传入动画的class，建议配合animate.css更加方便
+﻿# vue-scroll-animated
+vue-scroll-animated is an scroll animation directive for vue
+## Demo
+[example](https://walkjs.github.io/vue-scroll-animated)
 
-#### 使用方式
+## How to use
+通过v-animated指令传入动画的class (可以配合animate.css使用~)
 
 以animate.css为例
 
@@ -9,7 +12,6 @@
 //main.js
 
 import animated from 'animated'
-
 Vue.use(animated);
 
 
@@ -19,10 +21,9 @@ Vue.use(animated);
 
 
 //app.vue
-<style>
 
- @import animate.css;
- 
+<style>
+    @import animate.css;
 </style>
 
 
