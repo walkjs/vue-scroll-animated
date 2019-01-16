@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import animated from './assets/js/animated'
+import animated from '../src/directives/animated'
 
 Vue.config.productionTip = false
 Vue.use(animated);

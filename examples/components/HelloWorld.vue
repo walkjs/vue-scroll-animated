@@ -2,7 +2,8 @@
   <div>
     <div class="bg">
       <div
-        v-for="item in 300"
+        v-for="(item, index) in 300"
+        :key="index"
         v-animated="{
             className :'animated fadeInUp'
         }">
@@ -20,10 +21,10 @@ export default {
 
 
 <style scoped lang="scss">
-  .bg{
+  .bg {
     width: 200vw;
     background: black;
-    >div{
+    > div {
       width: calc(5% - 15px);
       height: 100px;
       line-height: 100px;
