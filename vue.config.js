@@ -7,7 +7,6 @@ module.exports = {
             filename: 'index.html'
         }
     },
-    // build 输出目录
     outputDir: 'docs',
     publicPath: './',
     devServer: {

@@ -5,7 +5,8 @@ import HelloWorld from './components/HelloWorld.vue'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
+  // 关闭history模式,防止打包静态资源页面空白
+  // mode: 'history',
   base: process.env.BASE_URL,
   routes: [
     {
